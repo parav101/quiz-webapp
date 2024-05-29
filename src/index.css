@@ -1,0 +1,74 @@
+/* Resetting default browser styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Light mode */
+body {
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+
+/* Quiz container */
+.quiz-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Question */
+.question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Options */
+.option {
+  margin-bottom: 10px;
+}
+
+/* Option radio button */
+.option input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Submit button */
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button.light-mode {
+  background-color: #009688;
+  color: #fff;
+}
+
+
+.submit-button:hover {
+  opacity: 0.8;
+}
+
+/* Result display */
+.result {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Styling correct and incorrect answers */
+.correct-answer {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect-answer {
+  color: red;
+  font-weight: bold;
+}

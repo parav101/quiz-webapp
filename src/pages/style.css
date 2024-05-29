@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    height: 100vh; */
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.toggle-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.toggle-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.toggle-btn a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; /* Adding transition effect for smooth color change */
+}
+
+.toggle-btn a:hover {
+    color: #4CAF50; /* Changing color on hover */
+}
